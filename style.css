@@ -1,0 +1,40 @@
+#app { 
+    height: 400px; 
+    width: 600px; 
+    outline: 5px solid black; 
+    position: relative;
+    float: left;
+} 
+    
+#ball { 
+    position: absolute; 
+    height: 80px; 
+    width: 80px; 
+    border-radius: 50%;
+    background-color:blue; 
+}
+
+#controllers {
+    height: 400px; 
+    width: 200px; 
+    outline: 5px solid black; 
+    position: relative;
+    margin-left: 101%;
+    text-align: center;
+}
+
+#buttons {
+    padding-top: 50%;
+    -webkit-touch-callout: none; /* iOS Safari */
+        -webkit-user-select: none; /* Safari */
+        -khtml-user-select: none; /* Konqueror HTML */
+            -moz-user-select: none; /* Firefox */
+            -ms-user-select: none; /* Internet Explorer/Edge */
+                user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome and Opera */
+}
+
+#pre {
+    position: relative;
+    left: -12%;
+}
