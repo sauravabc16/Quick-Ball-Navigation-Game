@@ -23,7 +23,7 @@ function move(e) {
     }
 }
 document.onkeydown = move;
-
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------//
 // Buttons Menu Func
 function moveUp() {
     if(y >= 5) {
@@ -63,6 +63,7 @@ function moveRight() {
         }
     }
 }
+// Different movements need different keypress.
 function moveLeft() {
     if(x >= 5) {
         x -= 5;
@@ -102,6 +103,7 @@ function moveDown() {
     }
 }
 
+//-------------------------------------------------------------------------------------------------------------------------------------------------------//
 // Reset Func
 function reset() {
     ball.style.left = 250 + "px";
